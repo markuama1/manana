@@ -1,0 +1,3 @@
+[submodule "angular-src"]
+	path = angular-src
+	url = https://github.com/markuama1/manana.git
