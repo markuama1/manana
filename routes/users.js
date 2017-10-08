@@ -1,9 +1,9 @@
-var express = require('express');
-var router = express.Router();
-var passport = require('passport');
-var jwt = require('jsonwebtoken');
-var config = require('../config/database');
-var User = require('../models/user');
+const express = require('express');
+const router = express.Router();
+const passport = require('passport');
+const jwt = require('jsonwebtoken');
+const config = require('../config/database');
+const User = require('../models/user');
 
 // Register
 router.post('/register', (req, res, next) => {
