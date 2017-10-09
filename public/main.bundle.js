@@ -651,7 +651,7 @@ module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n\t<flash
 /***/ 682:
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\n<html lang=\"en-us\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <title>Unity WebGL Player | MananaPlanner</title>\n    <link rel=\"shortcut icon\" href=\"assets/Build v2/TemplateData/favicon.ico\">\n    <link rel=\"stylesheet\" href=\"assets/Build v2/TemplateData/style.css\">\n    <script src=\"assets/Build v2/TemplateData/UnityProgress.js\"></script>  \n    <script src=\"assets/Build v2/Build/UnityLoader.js\"></script>\n    <script>\n      var gameInstance = UnityLoader.instantiate(\"gameContainer\", \"assets/Build v2/Build/Build v2.json\", {onProgress: UnityProgress});\n    </script>\n  </head>\n  <body>\n  \t<h2 class=\"page-header\">Park Planner X</h2>\n    <div class=\"webgl-content\">\n      <div id=\"gameContainer\" style=\"width: 1024px; height: 768px\"></div>\n      <div class=\"footer\">\n        <div class=\"webgl-logo\"></div>\n        <div class=\"fullscreen\" onclick=\"gameInstance.SetFullscreen(1)\"></div>\n        <div class=\"title\">MananaPlanner</div>\n      </div>\n    </div>\n  </body>\n</html>\n"
+module.exports = "<h2 class=\"page-header\">Park Planner X</h2>\n<p>Click <a href=\"https://www.google.fi\">here</a> to access the Park Planner!</p>"
 
 /***/ }),
 
