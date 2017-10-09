@@ -651,7 +651,7 @@ module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n\t<flash
 /***/ 682:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"page-header\">Park Planner X</h2>\n<p>Click <a href=\"https://www.google.fi\">here</a> to access the Park Planner!</p>"
+module.exports = "<h2 class=\"page-header\">Park Planner X</h2>\n<p>Click <a href=\"https://www.facebook.com\">here</a> to access the Park Planner!</p>"
 
 /***/ }),
 
